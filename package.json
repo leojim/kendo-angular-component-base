@@ -1,0 +1,58 @@
+{
+  "name": "@telerik/kendo-angular-component-base",
+  "version": "0.1.0",
+  "description": "Kendo UI Angular 2 component starter template",
+  "main": "dist/npm/js/index.js",
+  "author": "Telerik",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp start",
+    "lint": "echo lint stub;"
+  },
+  "keywords": [
+    "Kendo UI",
+    "AngularJS 2"
+  ],
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "zone.js": "^0.5.10"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "gulp": "3.9.0",
+    "@telerik/kendo-angular-tasks": "telerik/kendo-angular-tasks#master",
+    "@telerik/kendo-theme-default-base": "telerik/kendo-theme-default-base#master",
+    "validate-commit-msg": "^1.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "validate-commit-msg",
+      "pre-push": "npm run test"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100
+    }
+  }
+}
