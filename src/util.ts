@@ -1,2 +1,2 @@
-const util = "Util"
-export default util
+const util: string = "Util";
+export default util;
