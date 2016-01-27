@@ -22,13 +22,13 @@ describe('kendo-angular-component', () => {
   })
   class TestComponent {}
 
-  it('should render a div with a componentClass', injectAsync([TestComponentBuilder], (tcb) => {
+  it('should render a div', injectAsync([TestComponentBuilder], (tcb) => {
 
-    return tcb.overrideTemplate(TestComponent, '<kendo-angular-component />')
+    return tcb.overrideTemplate(TestComponent, '<kendo-angular-component></kendo-angular-component>')
       .createAsync(TestComponent).then((fixture: any) => {
         fixture.detectChanges();
-        let compiled = fixture.debugElement.nativeElement.children[0];
-        expect(compiled.className).toBe('componentClass');
+        let compiled = fixture.debugElement.nativeElement.children[0].children[0];
+        expect(compiled.tagName).toBe('DIV');
       });
   }));
 

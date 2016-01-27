@@ -8,22 +8,26 @@
     "removeComments": false,
     "noImplicitAny": false
   },
-
   "files": [
-    "src/kendo-component.ts",
     "src/bundle.ts",
+    "src/kendo-component.ts",
     "src/util.ts",
     "test/test.ts"
   ],
-
+  "filesGlob": [
+    "src/*.ts",
+    "test/*.ts"
+  ],
   "ignoreDiagnostics": [
     2403,
     2300,
     2374,
     2375
   ],
-
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
 }
