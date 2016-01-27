@@ -5,8 +5,8 @@
     <script src="https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.js"></script>
     <script src="https://code.angularjs.org/2.0.0-beta.0/Rx.umd.js"></script>
     <script src="https://code.angularjs.org/2.0.0-beta.0/angular2-all.umd.dev.js"></script>
-    <link rel="stylesheet" href="../dist/cdn/css/kendo-angular-button.css" type="text/css" media="all" />
-    <script src="../dist/cdn/js/kendo-angular-button.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../dist/cdn/css/kendo-angular-component.css" type="text/css" media="all" />
+    <script src="../dist/cdn/js/kendo-angular-component.js" type="text/javascript" charset="utf-8"></script>
   </head>
 
   <!-- 3. Display the application -->
@@ -19,8 +19,8 @@
         app.AppComponent = ng.core
         .Component({
           selector: 'my-app',
-          template: '<h1>My First Angular 2 App</h1> <kendo-button>Foo</kendo-button>',
-          directives: [ KendoAngularButton ]
+          template: '<h1>My First Angular 2 App</h1> <kendo-component>Foo</kendo-component>',
+          directives: [ KendoAngularComponent ]
         })
         .Class({
           constructor: function() {}
