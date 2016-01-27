@@ -9,7 +9,7 @@
     "test": "gulp test",
     "start": "gulp start",
     "typings": "typings install",
-    "lint": "echo lint stub;"
+    "lint": "gulp lint"
   },
   "keywords": [
     "Kendo UI",
