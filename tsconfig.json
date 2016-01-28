@@ -29,5 +29,7 @@
   ],
   "atom": {
     "rewriteTsconfig": false
-  }
+  },
+  "buildOnSave": false,
+  "compileOnSave": false
 }
