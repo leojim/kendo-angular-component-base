@@ -12,11 +12,13 @@
     "src/bundle.ts",
     "src/kendo-component.ts",
     "src/util.ts",
-    "test/test.ts"
+    "test/test.ts",
+    "typings/main.d.ts"
   ],
   "filesGlob": [
     "src/*.ts",
-    "test/*.ts"
+    "test/*.ts",
+    "!./node_modules/**/*.ts"
   ],
   "ignoreDiagnostics": [
     2403,
