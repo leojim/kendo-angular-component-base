@@ -23,7 +23,6 @@ There are several very ugly things, we hope that these will be gradually cleared
 ## Usage
 
 - Fork the repository to an appropriately named new one;
-- Fork the [theme repository](https://github.com/telerik/kendo-theme-default-base), too.
 - Change the package name/description in `package.json`; change the reference to the theme package;
 - Change the library name in `gulpfile.js`;
 - Change the `src/kendo-component.ts` file name to something more meaningful;
