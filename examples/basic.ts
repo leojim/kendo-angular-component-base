@@ -5,7 +5,9 @@ import KendoComponent from '../src/kendo-component'
 
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 Ap <kendo-angular-component>Component</kendo-angular-component></h1>',
+  template: `
+  <kendo-angular-component>Component</kendo-angular-component>
+  `,
   directives: [KendoComponent]
 })
 class AppComponent {
