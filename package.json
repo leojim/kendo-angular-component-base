@@ -1,6 +1,5 @@
 {
   "name": "@telerik/kendo-angular-component-base",
-  "version": "0.1.0",
   "description": "Kendo UI Angular 2 component starter template",
   "main": "dist/npm/js/index.js",
   "author": "Telerik",
@@ -9,7 +8,8 @@
     "test": "gulp test",
     "start": "gulp start",
     "typings": "typings install",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "Kendo UI",
@@ -30,7 +30,8 @@
     "gulp": "3.9.0",
     "@telerik/kendo-angular-tasks": "^1.0.0",
     "@telerik/kendo-theme-default": "git@github.com:telerik/kendo-theme-default.git#master",
-    "validate-commit-msg": "^1.1.1"
+    "validate-commit-msg": "^1.1.1",
+    "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {
@@ -56,5 +57,9 @@
       "warnOnFail": false,
       "maxSubjectLength": 100
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telerik/kendo-angular-component-base.git"
   }
 }
