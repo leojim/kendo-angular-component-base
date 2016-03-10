@@ -9,7 +9,7 @@
     "noImplicitAny": false
   },
   "files": [
-    "src/bundle.ts",
+    "src/main.ts",
     "src/kendo-component.ts",
     "src/util.ts",
     "test/test.ts",
