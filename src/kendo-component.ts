@@ -1,4 +1,4 @@
-import * as styles from '@telerik/kendo-theme-default-base/styles/main';
+import * as styles from '@telerik/kendo-theme-default/styles/main';
 import {Component} from 'angular2/core';
 import util from "./util";
 
