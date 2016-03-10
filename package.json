@@ -28,7 +28,7 @@
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
     "gulp": "3.9.0",
-    "@telerik/kendo-angular-tasks": "telerik/kendo-angular-tasks#master",
+    "@telerik/kendo-angular-tasks": "^1.0.0",
     "@telerik/kendo-theme-default-base": "telerik/kendo-theme-default-base#master",
     "validate-commit-msg": "^1.1.1"
   },
