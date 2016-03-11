@@ -12,15 +12,13 @@ There are several very ugly things, we hope that these will be gradually cleared
 ## Structure
 
 - The `src` directory contains the component source code. All files should be have the `.ts` extensions so that the build scripts may pick them.
-- The `src/bundle.ts` file should import and re-export all public components of the package. It is used for the `build-cdn` task.
-- The `src/index.ts` is the main entry point for the NPM package (as specified by the `package.json`). The `build-npm-package` transpiles it to `dist/npm/js/index.js`;
+- The `src/main.ts` file should import and re-export all public components of the package. It is used for the `build-cdn` task. It is also the main entry point for the NPM package (as specified by the `package.json`). The `build-npm-package` transpiles it to `dist/npm/js/main.js`;
 - The `src/kendo-component.ts` file is the actual sample component implementation.
 - The `src/util.ts` is an optional example of an additional file - you may remove it if unnecessary.
 
 - The `examples` directory hosts the demos for the component. As a bare minimum, the component should have a `basic usage` and a `CDN` example.  The `CDN` example should work as expected after the `build-cdn` task has been run.
 - The `test` directory contains the component tests. They are transpiled just like the source code itself, and run with Jasmine in Karma (PhantomJS).
 - The `e2e` directory contains the end-to-end tests. They are transpiled and run with Jasmine in Karma (Google Chrome).
-
 - The `docs` directory contains markdown files that document the specifics of the component.
 
 ## Usage
