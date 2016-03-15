@@ -11,7 +11,7 @@ There are several very ugly things, we hope that these will be gradually cleared
 
 ## Structure
 
-- The `src` directory contains the component source code. All files should be have the `.ts` extensions so that the build scripts may pick them.
+- The `src` directory contains the component source code. All files should have the `.ts` extensions so that the build scripts may pick them.
 - The `src/main.ts` file should import and re-export all public components of the package. It is used for the `build-cdn` task. It is also the main entry point for the NPM package (as specified by the `package.json`). The `build-npm-package` transpiles it to `dist/npm/js/main.js`;
 - The `src/kendo-component.ts` file is the actual sample component implementation.
 - The `src/util.ts` is an optional example of an additional file - you may remove it if unnecessary.
