@@ -1,6 +1,9 @@
-import 'reflect-metadata'
-import {Component} from 'angular2/core';
-import {bootstrap} from 'angular2/platform/browser'
+import 'core-js/es6';
+import 'core-js/es7/reflect';
+require('zone.js/dist/zone');
+
+import {Component} from '@angular/core';
+import { bootstrap } from '@angular/platform-browser-dynamic';
 import KendoComponent from '../src/kendo-component'
 
 @Component({
