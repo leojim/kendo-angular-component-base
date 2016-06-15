@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@telerik/kendo-angular-tasks": "^1.0.0",
-    "@telerik/kendo-theme-default": "telerik/kendo-theme-default#master",
+    "@telerik/kendo-theme-default": "^1.12.0",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
     "gulp": "3.9.0",
