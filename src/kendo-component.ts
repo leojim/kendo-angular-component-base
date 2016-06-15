@@ -1,5 +1,5 @@
 import * as styles from '@telerik/kendo-theme-default/styles/example/main';
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 import util from "./util";
 import subUtil from "./sub/util";
 

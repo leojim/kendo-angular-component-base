@@ -38,7 +38,8 @@
     "gulp": "3.9.0",
     "semantic-release": "^4.3.5",
     "typings": "^0.6.8",
-    "validate-commit-msg": "^1.1.1"
+    "validate-commit-msg": "^1.1.1",
+    "codelyzer": "0.0.23"
   },
   "config": {
     "commitizen": {
