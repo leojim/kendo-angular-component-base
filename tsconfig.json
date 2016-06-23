@@ -13,7 +13,7 @@
     "src/kendo-component.ts",
     "src/util.ts",
     "test/test.ts",
-    "typings/main.d.ts"
+    "typings/index.d.ts"
   ],
   "filesGlob": [
     "src/*.ts",
