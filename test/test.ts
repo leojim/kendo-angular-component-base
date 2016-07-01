@@ -1,12 +1,11 @@
 import {
     it,
-   // inject,
-    injectAsync,
-    describe
+    inject,
+    describe,
+    async,
+    TestComponentBuilder
   //  beforeEachProviders,
 } from '@angular/core/testing';
-
-import { TestComponentBuilder } from '@angular/compiler/testing';
 
 import { Component } from '@angular/core';
 //import {BaseRequestOptions, Http} from '@angular/http';
@@ -23,13 +22,13 @@ describe('kendo-angular-component', () => {
     })
     class TestComponent {}
 
-    it('should render a div', injectAsync([TestComponentBuilder], (tcb: any) => {
+    it('should render a div', async(inject([TestComponentBuilder], (tcb: any) => {
         return tcb.overrideTemplate(TestComponent, '<kendo-angular-component></kendo-angular-component>')
             .createAsync(TestComponent).then((fixture: any) => {
                 fixture.detectChanges();
                 let compiled: any = fixture.debugElement.nativeElement.children[0].children[0];
                 expect(compiled.tagName).toBe('DIV');
             });
-    }));
+    })));
 
 });
