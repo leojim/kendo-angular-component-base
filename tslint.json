@@ -78,7 +78,6 @@
     "no-eval": true,
     "no-inferrable-types": false,
     "no-internal-module": true,
-    "no-null-keyword": true,
     "no-require-imports": true,
     "no-shadowed-variable": true,
     "no-string-literal": true,
@@ -121,7 +120,6 @@
       "call-signature",
       "parameter",
       "property-declaration",
-      "variable-declaration",
       "member-variable-declaration"
     ],
     "typedef-whitespace": [
