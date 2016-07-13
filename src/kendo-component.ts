@@ -7,6 +7,6 @@ import subUtil from "./sub/util";
   selector: 'kendo-angular-component',
   template: `<div class="${styles.example}">A Kendo UI angular component ${util} ${subUtil}</div>`
 })
-export default class KendoComponent {
+export class KendoComponent {
 
 }

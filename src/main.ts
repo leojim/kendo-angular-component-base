@@ -1,3 +1,3 @@
-import KendoAngularComponent from './kendo-component';
+import { KendoComponent as KendoAngularComponent } from './kendo-component';
 
 export = KendoAngularComponent;

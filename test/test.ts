@@ -12,12 +12,12 @@ import { Component } from '@angular/core';
 //import {MockBackend} from '@angular/http/testing';
 
 // Load the implementations that should be tested
-import KendoAngularComponent from '../src/kendo-component';
+import { KendoComponent } from '../src/kendo-component';
 
 describe('kendo-angular-component', () => {
     // Create a test component to test directives
     @Component({
-        directives: [ KendoAngularComponent ],
+        directives: [ KendoComponent ],
         template: ''
     })
     class TestComponent {}

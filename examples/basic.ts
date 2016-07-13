@@ -4,7 +4,7 @@ require('zone.js/dist/zone');
 
 import {Component} from '@angular/core';
 import { bootstrap } from '@angular/platform-browser-dynamic';
-import KendoComponent from '../src/kendo-component'
+import { KendoComponent } from '../src/kendo-component'
 
 @Component({
   selector: 'my-app',
