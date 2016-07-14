@@ -8,7 +8,7 @@
     "test": "gulp test",
     "e2e": "gulp e2e",
     "start": "gulp start",
-    "typings": "typings install",
+    "typings": "typings prune && typings install",
     "lint": "gulp lint",
     "build-package": "gulp build-npm-package",
     "build-cdn": "gulp build-cdn",
